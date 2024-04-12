@@ -1,0 +1,7 @@
+fairseq
+flashlight-text
+flashlight-sequence
+edit_distance
+jiwer
+librosa
+# https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/parse_options.sh 
