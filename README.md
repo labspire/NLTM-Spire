@@ -1,5 +1,5 @@
 ## Demo
-[Automatic Speech Recognition for low-Resource Indic Languages](https://amartyaveer.github.io/ASR-Deploy/){:target="_blank"}
+[Automatic Speech Recognition for low-Resource Indic Languages](https://amartyaveer.github.io/ASR-Deploy/)
 
 ## Models
 
@@ -43,7 +43,7 @@ NLTM-SPIRE
 
 ## Requirements and Installation
 * Python version >= 3.8
-* [PyTorch](https://pytorch.org/){:target="_blank"} version >= 2.0.0
+* [PyTorch](https://pytorch.org/) version >= 2.0.0
 * Fairseq version >= 0.12.2
 * For training new models, you'll also need an NVIDIA GPU and NCCL
 * To install requirements:
@@ -67,7 +67,7 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
   --global-option="--fast_multihead_attn" ./
 ```
 * Flashlight version >= 0.0.7
-* To install [flashlight-text](https://github.com/flashlight/text){:target="_blank"} and [flashlight-sequence](https://github.com/flashlight/sequence){:target="_blank"}
+* To install [flashlight-text](https://github.com/flashlight/text) and [flashlight-sequence](https://github.com/flashlight/sequence)
 ```bash
 pip install flashlight-text
 
@@ -80,7 +80,7 @@ wget https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/parse_optio
 ```
 
 ## Reference Code
-1. Facebook AI Research Sequence-to-Sequence Toolkit written in Python. [fairseq](https://github.com/facebookresearch/fairseq){:target="_blank"}
+1. Facebook AI Research Sequence-to-Sequence Toolkit written in Python. [fairseq](https://github.com/facebookresearch/fairseq)
 2. AI4Bharat [IndicWav2Vec](https://ai4bharat.iitm.ac.in/indicwav2vec/)
 
 
