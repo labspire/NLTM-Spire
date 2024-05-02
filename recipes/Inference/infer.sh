@@ -1,15 +1,11 @@
 #!/bin/bash
 set -e
-source /envs/fairseq/bin/activate
-tags='maithili'
+tags='mt'
 gpu=0
 . parse_options.sh
 export CUDA_VISIBLE_DEVICES=$gpu
-hrs=200
-mdl=indic
-subset="dev"
-label="ltr"
-dialect_level_ed=True
+subset="test"
+dialect_level_ed=False
 
 for tag in $tags; do 
 w2v2_pth=/fairseq/Models/finetuned/indic_finetuned/${tag}_checkpoint_best.pt
@@ -28,7 +24,7 @@ python3 /fairseq/examples/speech_recognition/infer.py $data_dir/${tag} \
                 --w2l-decoder viterbi \
                 --sil-weight 0 \
                 --criterion ctc \
-                --labels $label \
+                --labels ltr \
                 --max-tokens 4000000 \
                 --post-process letter \
                 --beam 1

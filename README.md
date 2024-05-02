@@ -10,7 +10,7 @@ Model | Pre-training data | Fine-tuning data | Model Links | WER (test-RESPIN)
 [IndicWav2Vec Base](https://indic-asr-public.objectstore.e2enetworks.net/aaai_ckpts/pretrained_models/indicw2v_base_pretrained.pt) | --- | Maithili | [fairseq](https://media.githubusercontent.com/media/Amartyaveer/NLTM-Spire/main/Models/Finetuned/indic_finetuned/mt_checkpoint_best.pt?download=true) | 17.934
 
 
-* Pre-training and fine-tuning procedures can be found [here]().
+* fine-tuning procedures can be found [here](https://github.com/Amartyaveer/NLTM-Spire/tree/main/recipes/Training).
 
 ## Directory Structure
 ```
