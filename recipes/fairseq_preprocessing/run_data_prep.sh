@@ -2,7 +2,6 @@
 : '
  provide the input train, test, dev folder(wav.scp, text) in kaldi format 
  '
-source envs/fairseq/bin/activate
 set -e
 
 train=0
@@ -14,10 +13,10 @@ tags="mt"
 
 for tag in ${tags}; do
 
-train_folder=/fairseq/data/exp/kaldi/data_${tag}/train_${tag}_300h
-dev_folder=/fairseq/data/exp/kaldi/data_${tag}/dev_${tag}_5h
-test_folder=/fairseq/data/exp/kaldi/data_${tag}/test_${tag}_5h
-output_folder=/fairseq/data/processed_${tag}
+train_folder=/fairseq/data/exp/kaldi/data/${tag}/train
+dev_folder=/fairseq/data/exp/kaldi/data/${tag}/dev
+test_folder=/fairseq/data/exp/kaldi/data/${tag}/test
+output_folder=/fairseq/data/processed/${tag}
 pyscript=/fairseq/fairseq_preprocessing/data_prep.py
 
 mkdir -p $output_folder

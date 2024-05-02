@@ -15,7 +15,7 @@ export PYTHONPATH=$PYTHONPATH:<path_to_fairseq>
 * run the infer.py script
 
 ## Example
-```bash
+```python
 from infer import infer
 output = infer(file_pth='test.wav', conf_pth='config.yaml')
 ```

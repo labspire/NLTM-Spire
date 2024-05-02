@@ -19,12 +19,13 @@ data_dir <path to the data directory>
 results <path to the results directory>
 dialect_level_ed <True/False> (if True, it will calculate the dialect level wer)
 ```
-* The script will infer on the data and store the `references` and its corresponding `hypothesis`. It also gives the `file level wer` and stores in in the results directory specified in infer.sh
+* The script will infer on the data and saves the `references` and its corresponding `hypothesis`. It also gives the `wer` and `cer` and saves it in the results directory specified in infer.sh script.
 
-```
-* Run the training script as follows:
+* This inference script uses the [`metrics.py`](https://github.com/Amartyaveer/NLTM-Spire/tree/main/recipes/fairseq_preprocessing) script to calculate the `wer` and `cer` from the saved `references` and `hypothesis` file.
+
+* Run the inference script as follows:
 ```bash
-./train.sh --tags <tags> --gpu <gpu_id>
+./infer.sh --tags <tags> --gpu <gpu_id>
 ```
 
 ## Example
