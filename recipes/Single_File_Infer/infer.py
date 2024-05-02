@@ -54,8 +54,8 @@ def write_file(file, text):
     with open(file, 'a') as f:
         f.write("%s\n" % text)
 
-def infer(file_pth, conf):
-    load_config(conf)
+def infer(file_pth, conf_pth):
+    load_config(conf_pth)
     load_model(args.model, args.device)
     inp = get_data(file_pth, args.device)
     out = decode(inp)

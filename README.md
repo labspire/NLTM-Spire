@@ -42,9 +42,15 @@ NLTM-SPIRE
 ```
 
 ## Requirements and Installation
+* Create a new conda environment:
+```bash
+conda create -n env_name python=3.8
+conda activate env_name
+```
 * Python version >= 3.8
 * [PyTorch](https://pytorch.org/) version >= 2.0.0
 * Fairseq version >= 0.12.2
+* CUDA >= 11.8
 * For training new models, you'll also need an NVIDIA GPU and NCCL
 * To install requirements:
 
