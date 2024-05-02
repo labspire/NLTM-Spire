@@ -11,6 +11,8 @@ Model | Pre-training data | Fine-tuning data | Model Links | WER (test-RESPIN)
 
 
 * fine-tuning procedures can be found [here](https://github.com/Amartyaveer/NLTM-Spire/tree/main/recipes/Training).
+* Inference procedures can be found [here](https://github.com/Amartyaveer/NLTM-Spire/tree/main/recipes/Inference).
+* Single file inference procedures can be found [here](https://github.com/Amartyaveer/NLTM-Spire/tree/main/recipes/Single_File_Infer)
 
 ## Directory Structure
 ```
