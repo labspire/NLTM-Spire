@@ -8,10 +8,10 @@ conda activate env_name
 ```
 * Use the [fairseq_preprocessing](https://github.com/Amartyaveer/NLTM-Spire/blob/main/recipes/fairseq_preprocessing/) scripts to prepare the data.
 * Note that the input is expected to be single channel, sampled at 16 kHz
-* Things to be updated in the inference script:
+* Things to be updated in the inference script(infer.sh):
 ```bash
 * Update the infer.py script path to the fairseq directory.
-* Update the metircs.py script path to the fairseq_preprocessing directory.
+* Update the metrics.py script path to the fairseq_preprocessing directory.
 
 subset <train/valid/test>
 w2v2_path <path to the finetuned model>
@@ -19,7 +19,13 @@ data_dir <path to the data directory>
 results <path to the results directory>
 dialect_level_ed <True/False> (if True, it will calculate the dialect level wer)
 ```
-* The script will infer on the data and store the `references` and its corresponding `hypothesis`. It also gives the `file level wer`. 
+* The script will infer on the data and store the `references` and its corresponding `hypothesis`. It also gives the `file level wer` and stores in in the results directory specified in infer.sh
+
+```
+* Run the training script as follows:
+```bash
+./train.sh --tags <tags> --gpu <gpu_id>
+```
 
 ## Example
 
