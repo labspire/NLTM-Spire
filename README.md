@@ -84,7 +84,7 @@ pip install .
 ```
 * To install parse_options:
 ```bash
-wget https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/parse_options.sh && mv parse_options.sh /usr/local/bin/
+wget https://github.com/kaldi-asr/kaldi/blob/master/egs/wsj/s5/utils/parse_options.sh -O parse_options.sh && sudo mv parse_options.sh /usr/local/bin/
 ```
 
 ## Reference Code
