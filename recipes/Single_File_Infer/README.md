@@ -13,6 +13,7 @@ export PYTHONPATH=$PYTHONPATH:<path_to_fairseq>
 * update model path in the config.yaml
 * update device('cpu', 'cuda') in the config.yaml
 * run the infer.py script
+* Note that the input is expected to be single channel, sampled at 16 kHz
 
 ## Example
 ```python
