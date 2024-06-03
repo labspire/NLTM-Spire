@@ -7,7 +7,7 @@ The WERs specified are without the use of any language model.
 
 Model | Pre-training data | Fine-tuning data | Model Links | WER (test-RESPIN)
 |---|---|---|---|---
-[IndicWav2Vec Base](https://indic-asr-public.objectstore.e2enetworks.net/aaai_ckpts/pretrained_models/indicw2v_base_pretrained.pt) | --- | Maithili | [fairseq](https://media.githubusercontent.com/media/Amartyaveer/NLTM-Spire/main/Models/Finetuned/indic_finetuned/mt_checkpoint_best.pt?download=true) | 17.934
+[IndicWav2Vec Base](https://indic-asr-public.objectstore.e2enetworks.net/aaai_ckpts/pretrained_models/indicw2v_base_pretrained.pt) | --- | Maithili | [fairseq](https://media.githubusercontent.com/media/Amartyaveer/NLTM-Spire/main/Models/Finetuned/indic_finetuned/mt_checkpoint_best.pt?download=true) | 18.95
 
 
 * fine-tuning procedures can be found [here](https://github.com/Amartyaveer/NLTM-Spire/tree/main/recipes/Training).
