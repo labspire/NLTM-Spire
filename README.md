@@ -1,4 +1,14 @@
+Signal Processing Interpretation and REpresentation (SPIRE) Lab is led by Prof. Prasanta, in the department of Electrical Engineering at Indian Institute of Science (IISc), Bangalore.<br> 
+Research at SPIRE Lab is in the area of human-centered data processing, particularly speech, audio and language processing in Indian languages with applications in education and healthcare.<br>
+SPIRE Lab's contribution to NLTM include development of resource and models for speech recognition in three low resourced languages, namely, Maithili, Konkani and Santali.
+
 ## Demo
+Our research at SPIRE Lab centers around developing ASR techniques for languages with limited resources.<br>
+Typically these languages lacks annotated text, speech data, or other linguistic resources needed to train and develop effective models.<br>
+Also the pool of people speaking these languages are low.<br>
+Our work is primarly focused on three low resource language `Maithili`, `Santali`, `Konkani`.<br>
+We are using techniques like `SSL finetuning`, `Adapters`, `Transfer Learning`.<br>
+Checkout our demos:<br>
 [Automatic Speech Recognition for low-Resource Indic Languages](https://amartyaveer.github.io/ASR-Deploy/)
 
 ## Models
